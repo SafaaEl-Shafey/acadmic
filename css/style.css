@@ -1,0 +1,226 @@
+
+/* *********** slider ********** */
+.imageSlide{
+	border:4px black solid;
+	height: 550px;
+	border-radius: 20px;
+}
+
+/* ********** Student ****** */
+
+.titleShadow{
+	text-shadow: 3px 3px 5px black;
+}
+
+.studentImage{
+	width:150px;
+	height: 150px;
+}
+
+/* ******* Comman ************** */
+.font{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.font2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-color{
+    color:#0066cc;
+}
+
+.background-color{
+	background-color: #0066cc;
+}
+
+.letterSpacing{
+    letter-spacing: 0.5px;
+}
+
+.background-color-blue{
+    background-color: #eaf0ff;
+}
+
+
+/* ********** header *********** */
+
+
+.title{
+    text-shadow: 2px 2px 4px rgba(220, 79, 79, 0.5);
+    -webkit-text-stroke: 2px #5f69f2;
+}
+
+.line{
+    width:80%;
+}
+
+.link-nav a{
+    text-decoration: none;
+    color: rgb(63, 62, 62,.9);
+    font-weight:100;
+}
+
+.btn-nav{
+    border-color: #f2745f;
+}
+
+
+/* ************ Footer ************ */
+footer {
+	background-color: #363e50;
+}
+
+footer p {
+	line-height: 120px;
+	color: #fff;
+	margin-top: 5px;
+    transition: all 2s;
+}
+
+footer p:hover{
+    color:#f2745f;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.icon{
+   transform: all 2s;
+}
+
+.icon:hover {
+	color: #f2745f;	
+}
+
+/* ************** Quote ************* */
+.quote{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('../images/bg/sea2.jpg');
+}
+
+.quoteCard{
+	background-color: rgba(224, 229, 234, 0.8);
+	box-shadow: 0px 0px 5px gray;
+	color:black;
+}
+
+/* ************ Blog ********* */
+.blog-section{
+	box-shadow: 1px 1px 10px #7a7a7a;
+	border-top: 1px #121212 solid;
+}
+
+/* ************ what's app *********** */
+.btn-whatapp{
+	position: fixed;
+	bottom: 50px;
+	right:50px;
+}
+
+.icon-whatapp{
+	width: 100px;
+	height: 100px;
+}
+
+/* ************* Tracks ************ */
+.track-Card{
+	transition: margin-top 1s;
+	}
+	
+	.track-Card :hover{
+	margin-top:-20px;
+	}
+	
+	
+	.track-item h2 {
+		font-family: 'Spectral', serif;
+		font-size: 28px;
+		border-bottom: 1px solid #d9dde5;
+		color: #121212;
+	}
+	.img-price{
+		position: relative;
+	}
+
+	.track-item img {
+		width: 100%;
+		height: 300px;
+	}
+	
+	.track-item .price {
+		font-size: 17px;
+		color: #f2745f;
+		font-weight: 500;
+		letter-spacing: 0.5px;
+		padding: 8px 14px;
+		position: absolute;
+		right: 0%;
+		bottom: 0%;
+		background-color: rgba(250, 250, 250, 0.9);
+	}
+	
+	.track-item .text-content {
+		background-color: #fff;
+	}
+	
+	.track-item h4 {
+		font-family: 'Spectral', serif;
+		font-size: 18px;
+		color: #121212;
+	}
+
+/* **************** Team ************** */
+.team-thumb{
+    border:2px black solid;
+    border-radius: 2px;
+    filter:drop-shadow(2px 2px 12px black);
+    width: 100%;
+    height: 400px;
+}
+
+.icon-team{
+    background-color: rgba(238, 238, 230, 0.4);
+    border:1px white solid;
+    border-radius: 100%;
+}
+
+.icon-team:hover{
+    background-color: #e9634b;
+}
+
+/* *********** instructor ******* */
+
+.instructor-item  a {
+	text-decoration: none;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .instructor-item {
+	text-align: center;
+}
+
+ .instructor-item img {
+	max-width: 100%;
+	height: 200px;
+	overflow: hidden;
+	border: 10px solid #eaf0ff;
+	border-radius: 50%;
+    filter:drop-shadow(2px 2px 10px black);
+}
+
+/* *********** Youtube *********** */
+.youtube-channel{
+	background-image: url('../images/bg/ai\(1\).png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}

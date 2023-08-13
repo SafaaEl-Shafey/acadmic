@@ -1,0 +1,59 @@
+body {
+    background-image: url(pexels-francesco-ungaro-2835436.jpg);
+    background-size: cover;
+}
+
+.card-parent {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.card {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.card-img-top {
+    width: 286px;
+    height: 286px;
+    cursor: pointer;
+}
+
+#btn1 {
+    width: 150px;
+    background-color: transparent;
+    font-weight: bolder;
+    padding: 17.5px;
+    border: 2px solid #aad5ad;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #aad5cd;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: #aad5cd;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.card-img-top {
+    border-radius: 20px;
+}
+
+.card:hover {
+    background-color: #aaadd5;
+    transition: 1s;
+}
