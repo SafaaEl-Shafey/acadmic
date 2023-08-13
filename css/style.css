@@ -1,4 +1,3 @@
-
 /* *********** slider ********** */
 .imageSlide{
 	border:4px black solid;
@@ -9,7 +8,7 @@
 /* ********** Student ****** */
 
 .titleShadow{
-	text-shadow: 3px 3px 5px black;
+	text-shadow: 3px 3px 5px #718cd2;
 }
 
 .studentImage{
@@ -42,30 +41,6 @@
     background-color: #eaf0ff;
 }
 
-
-/* ********** header *********** */
-
-
-.title{
-    text-shadow: 2px 2px 4px rgba(220, 79, 79, 0.5);
-    -webkit-text-stroke: 2px #5f69f2;
-}
-
-.line{
-    width:80%;
-}
-
-.link-nav a{
-    text-decoration: none;
-    color: rgb(63, 62, 62,.9);
-    font-weight:100;
-}
-
-.btn-nav{
-    border-color: #f2745f;
-}
-
-
 /* ************ Footer ************ */
 footer {
 	background-color: #363e50;
@@ -76,10 +51,6 @@ footer p {
 	color: #fff;
 	margin-top: 5px;
     transition: all 2s;
-}
-
-footer p:hover{
-    color:#f2745f;
 }
 
 footer ul {
@@ -96,7 +67,7 @@ footer ul li {
 }
 
 .icon:hover {
-	color: #f2745f;	
+	color: #5fcdf2;	
 }
 
 /* ************** Quote ************* */
@@ -131,13 +102,7 @@ footer ul li {
 }
 
 /* ************* Tracks ************ */
-.track-Card{
-	transition: margin-top 1s;
-	}
-	
-	.track-Card :hover{
-	margin-top:-20px;
-	}
+
 	
 	
 	.track-item h2 {
@@ -193,7 +158,7 @@ footer ul li {
 }
 
 .icon-team:hover{
-    background-color: #e9634b;
+    background-color: #4bc2e9;
 }
 
 /* *********** instructor ******* */
@@ -219,8 +184,30 @@ footer ul li {
 
 /* *********** Youtube *********** */
 .youtube-channel{
-	background-image: url('../images/bg/ai\(1\).png');
+	background-image: url('../images/bg/ai.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
+}
+
+
+
+/* ********** About us ********** */
+.about-content {
+	background-color: #3e77b0b2;
+    border:1px white solid;
+    border-radius: 10px;
+}
+
+.img-about{
+	height: 300px;
+}
+
+.or{
+	font-size: 11px;
+    display: inline-flex;
+	letter-spacing: 1px;
+	border: 2px solid white;
+	line-height: 25px;
+	border-radius: 50%;
 }
