@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" id="code">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -19,10 +19,11 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="./font-awesome/css/fontawesome.min.css" />
 
-
     <!-- css -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/styleEn.css" rel="stylesheet">
+
+    <!-- CSS template -->
+    <link href="css/template-style.css" rel="stylesheet">
 
     <!-- aos -->
     <link href="aos/aos.css" rel="stylesheet">
@@ -31,182 +32,74 @@
     <!-- image hover-->
     <link rel="stylesheet" href="imageHover/imagehover.min.css">
 
-    <!-- CSS template -->
-    <link href="css/template-style.css" rel="stylesheet">
-
 </head>
 
 <body>
 
-    <!--
-
-    <section class="preloader">
-        <div class="spinner">
-            <span class="spinner-rotate"></span>
-        </div>
-    </section>
-
-    <nav class="navbar navbar-expand-lg">
+<header>
+    <nav class="navbar navbar-expand-lg">                
         <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.png" class=" img-fluid" alt="logo">
+                <span class="navbar-brand-text font">
+                    Safaa El-Shafe’y
+                    <small>Academy</small>
+                </span>
+            </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="d-lg-none ms-auto me-3">
+                <a class="btn custom-btn custom-border-btn" href="indexAR.html">Switch to Arabic</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a href="index.html" class="navbar-brand mx-auto mx-lg-0">Start Programming</a>
-
-            <div class="d-flex align-items-center d-lg-none">
-                <i class="navbar-icon bi-telephone-plus me-3"></i>
-                <a class="custom-btn btn" href="#student">
-                    120-240-9600
-                </a>
-            </div>
-
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-lg-3">
+                <ul class="navbar-nav ms-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" style="font-size: 10px;" href="#section_1">Home</a>
+                        <a class="active nav-link click-scroll" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" style="font-size: 10px;" href="#section_2">About</a>
+                        <a class="nav-link click-scroll" href="#about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" style="font-size: 10px;" href="#track">Our Track</a>
+                        <a class="nav-link click-scroll" href="#team">Team</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" style="font-size: 10px;" href="#section_4">Projects</a>
+                        <a class="nav-link click-scroll" href="#certifcation">Certifcation</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" style="font-size: 10px;" href="#student">Our Students</a>
+                        <a class="nav-link click-scroll" href="#contact">Contact Us</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" style="font-size: 10px;" href="#contact">Contact</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tracks</a>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="indexAR.html"
-                            style="cursor: pointer; font-size: 12px;">Switch to Arabic</a>
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" href="web.html">Web develpment</a></li>
+                            <li><a class="dropdown-item" href="game.html">Game and AI</a></li>
+                            <li><a class="dropdown-item" href="computer.html">Basic Computer</a></li>
+                        </ul>
                     </li>
                 </ul>
 
-                <div class="d-lg-flex align-items-center d-none ms-auto">
-                    <i class="navbar-icon bi-telephone-plus me-3"></i>
-                    <a class="custom-btn btn" href="#student">
-                        150-808-3276
-                    </a>
+                <div class="d-none d-lg-block ms-lg-3">
+                   
+                    <a class="btn custom-btn custom-border-btn" href="indexAR.html">Switch to Arabic</a>
                 </div>
             </div>
-
         </div>
-    </nav>
+    </nav>  
+</header>    
 
-    <main>
-
-        <section class="hero d-flex justify-content-center align-items-center" id="section_1">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-7 col-12">
-                        <div class="hero-text">
-                            <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                <img src="images/channels4_profile.jpg"
-                                    class="avatar-image avatar-image-large img-fluid" alt="">
-
-                                <h1 class="hero-title ms-3 mb-0" style="letter-spacing: .5px;">Safaa El-Shafe’y</h1>
-                            </div>
-
-                            <h2 class="mb-4 p-5"
-                                style="font-size: 30px !important; letter-spacing: .5px; border-radius: 50px;">This
-                                Academy specializes in learning programming for underage (from 12 years old).</h2>
-                            <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 col-12 position-relative" style="top: 100px; left: 50px;">
-                        <div class="hero-image-wrap"></div>
-                    </div>
-
-                </div>
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 1440 320">
-                <path fill="#0291CC" fill-opacity="1"
-                    d="M0,160L24,160C48,160,96,160,144,138.7C192,117,240,75,288,64C336,53,384,75,432,106.7C480,139,528,181,576,208C624,235,672,245,720,240C768,235,816,213,864,186.7C912,160,960,128,1008,133.3C1056,139,1104,181,1152,202.7C1200,224,1248,224,1296,197.3C1344,171,1392,117,1416,90.7L1440,64L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z">
-                </path>
-            </svg>
-        </section>
-    -->
-
-        <nav class="navbar navbar-expand-lg">                
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="images/logo.png" class=" img-fluid" alt="logo">
-                    <span class="navbar-brand-text">
-                        Safaa El-Shafe’y
-                        <small>Academy</small>
-                    </span>
-                </a>
-
-                <div class="d-lg-none ms-auto me-3">
-                    <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="indexAR.html" role="button" aria-controls="offcanvasExample">Switch to Arabic</a>
-                </div>
-
-                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-white"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#home">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#about">About</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#team">Team</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#certifcation">Certifcation</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#contact">Contact Us</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tracks</a>
-
-                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                <li><a class="dropdown-item" href="web.html">Web develpment</a></li>
-                                <li><a class="dropdown-item" href="game.html">Game and AI</a></li>
-                                <li><a class="dropdown-item" href="computer.html">Basic Computer</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <div class="d-none d-lg-block ms-lg-3">
-                        <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="indexAR.html" role="button" aria-controls="offcanvasExample">Switch to Arabic</a>
-                    </div>
-                </div>
-            </div>
-        </nav>            
-          
-        
+                   
 
         <section class="hero-section d-flex justify-content-center align-items-center" id="home">
-
-            <div class="section-overlay"></div>
-
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d3d6d" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
 
             <div class="container">
@@ -222,14 +115,14 @@
                         <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
                             <span>more</span>
                             <span class="cd-words-wrapper">
-                                <b class="is-visible">easier</b>
+                                <b class="is-visible">Easier</b>
                                 <b>fun</b>
                                 <b>available for anyone</b>
                             </span>
                         </h1>
 
                         <div>
-                            <a href="#about" class="btn btn-danger smoothscroll me-3">Start Programming</a>
+                            <a href="#about" class="btn btn-danger">Start Programming</a>
                         </div>
                     </div>
 
@@ -785,6 +678,7 @@
     <script>
         AOS.init();
     </script>
+
 
 </body>
 

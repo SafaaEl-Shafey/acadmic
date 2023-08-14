@@ -94,6 +94,7 @@ footer ul li {
 	position: fixed;
 	bottom: 50px;
 	right:20px;
+	z-index: 999;
 }
 
 .icon-whatapp{
@@ -196,6 +197,7 @@ footer ul li {
 
 .about-part{
 	background-color: #0d3d6d;
+	z-index: 2;
 }
 
 .about-content {
