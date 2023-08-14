@@ -161,6 +161,8 @@ strong {
 /*---------------------------------------
   ANIMATED HEADLINE               
 -----------------------------------------*/
+
+/*
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -354,7 +356,7 @@ strong {
     opacity: 0;
   }
 }
-
+*/
 
 /*---------------------------------------
   CUSTOM BUTTON               
@@ -404,44 +406,8 @@ strong {
 
 
 /*---------------------------------------
-  NAVIGATION BAR & OFFCANVAS              
+  NAVIGATION BAR               
 -----------------------------------------*/
-/*
-.offcanvas {
-  background-color:red;
-  padding: 30px;
-}
-
-.offcanvas.offcanvas-end {
-  border-left: 0;
-}
-
-.offcanvas-header .btn-close {
-  transition: all 0.3s;
-}
-
-.offcanvas-header .btn-close:hover {
-  transform: rotate(180deg);
-}
-
-.offcanvas svg {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.sticky-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-.sticky-wrapper.is-sticky .navbar {
-  background-color: red;
-}
-*/
 
 .navbar {
   background: var(--bg-color-nav);
