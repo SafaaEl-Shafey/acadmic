@@ -94,6 +94,7 @@ text-decoration: none;
 	min-height: 670px;
 	position: relative;
 	padding-top: 200px;
+	overflow: auto;
 }
 
 .video-home{
