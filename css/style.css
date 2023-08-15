@@ -195,9 +195,12 @@ footer ul li {
 
 /* ********** About us ********** */
 
+.about-section{
+	z-index: 2;
+}
+
 .about-part{
 	background-color: #0d3d6d;
-	z-index: 2;
 }
 
 .about-content {
@@ -224,4 +227,98 @@ footer ul li {
 	color:black;
 	background-color: white;
 	border: 2px solid #0d3d6d;
+}
+
+/* *********** Home ********* */
+.home-section{
+	background-image: url('../images/bg/ai\(1\).png');
+	background-size: cover;
+	background-position: center;
+	min-height: 670px;
+	position: relative;
+	padding-top: 200px;
+}
+
+.video-home{
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.svg-home-start {
+	position: absolute;
+	top:0;
+	right: 0;
+	left:0;
+  }
+
+  .svg-home-end {
+	top: auto;
+	bottom: -1px;
+  }
+  
+  .home-section .row {
+	position: relative;
+	z-index: 2;
+}
+  
+/* *********** nav ************* */
+  .nav-bg{
+	background-color: #0d3d6d;
+	z-index: 999;
+	position: fixed;
+	width: 100vw;
+  }
+
+.logo{
+	width: 50px;
+	height: 50px;
+}
+
+.navbar-brand-text {
+	line-height: normal;
+	margin-left: 10px;
+	position: relative;
+	bottom: 5px;
+	font-size: 20px;
+  }
+  
+  .navbar-brand-text small {
+	display: block;
+	font-size: 10px;
+	line-height: 1;
+	text-transform: uppercase;
+  }
+
+  .nav-item-text-active{
+	color:rgb(196, 218, 68);
+	text-decoration: none;
+  }
+  .nav-item-text-active:hover{
+	color:white;
+  }
+
+.nav-item-text{
+text-decoration: none;
+color: whitesmoke;
+}
+
+.nav-item-text:hover{
+	color:rgb(196, 218, 68);
+}
+
+.btn-switch{
+border:2px solid rgb(196, 218, 68);
+background-color: transparent;
+color: rgb(196, 218, 68);
+text-decoration: none;
+}
+
+.div-switch :hover{
+	border:2px solid rgb(196, 218, 68);
+	background-color: rgb(196, 218, 68);
+	color: white;
+}
+.word-home{
+	color:rgb(196, 218, 68);
+	font-weight: bold;
 }

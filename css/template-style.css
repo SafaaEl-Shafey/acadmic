@@ -162,7 +162,7 @@ strong {
   ANIMATED HEADLINE               
 -----------------------------------------*/
 
-/*
+
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -356,7 +356,7 @@ strong {
     opacity: 0;
   }
 }
-*/
+
 
 /*---------------------------------------
   CUSTOM BUTTON               
@@ -610,6 +610,8 @@ strong {
 /*---------------------------------------
   HERO        
 -----------------------------------------*/
+
+/*
 .hero-section {
   background-image: url('../images/bg/ai\(1\).png');
   background-repeat: no-repeat;
@@ -658,3 +660,4 @@ strong {
   z-index: 2;
 }
 
+*/
