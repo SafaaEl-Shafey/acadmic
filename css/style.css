@@ -169,6 +169,8 @@ text-decoration: none;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
+	border: 5px inset rgb(98, 98, 100);
+	
 }
 
 /* **************** Team ************** */
@@ -203,13 +205,13 @@ text-decoration: none;
 }
 
  .instructor-item img {
-	max-width: 100%;
+	width: 80%;
 	height: 200px;
-	overflow: hidden;
 	border: 10px solid #eaf0ff;
 	border-radius: 50%;
     filter:drop-shadow(2px 2px 10px black);
 }
+
 /* ************** Quote ************* */
 .quote{
 	background-size: cover;
@@ -226,7 +228,7 @@ text-decoration: none;
 /* *********** slider certifcation ********** */
 .imageSlide{
 	border:4px black solid;
-	height: 550px;
+	max-height: 550px;
 	border-radius: 20px;
 }
 /* ************* Tracks ************ */
@@ -269,7 +271,16 @@ text-decoration: none;
 	font-size: 18px;
 	color: #121212;
 }
-	
+
+/* ********* feedback *********** */
+.feedback-section{
+	background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_sTwe3aj5PNlLMsvM6zKgrcKAgAoVFvF7AN2e9R-hhalwdHFfsIy_FDTR4Z1RpGYNUkw461dSuMGkPXCHYrtiMTNIoH3tWoaImNgd3s-AgdWYF_TA0RWZvPafJPByEp4S4gK52_3zsSm4nh8mGFD-MgHFaEtR5n88XXX9sJ8lHroxnAXrd__5GzHu/d/moon%20night%20sky%20wallpaper_24.jpg');
+	background-size: cover;
+	border: 5px inset rgb(107, 126, 183);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
 	
 /* ********** Student ****** */
 
